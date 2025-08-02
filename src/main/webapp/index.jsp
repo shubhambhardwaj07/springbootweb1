@@ -5,9 +5,12 @@
     <h1>Welcome to the JSP Example</h1>
     <p>This is a simple JSP page.</p>
 
-    <form action="submit.jsp" method="post">
-        <label for="name">Enter your name:</label>
-        <input type="text" id="name" name="name" required>
+    <form action="add" >
+        <label for="num1">First Number</label>
+        <input type="text" id="num1" name="num1" required>
+
+          <label for="num2">First Number</label>
+          <input type="text" id="num2" name="num2" required>
         <input type="submit" value="Submit">
     </form>
 
