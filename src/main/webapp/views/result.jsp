@@ -6,7 +6,7 @@
     <p>This is a simple JSP page.</p>
 
     <h2>Result is: <%= session.getAttribute("result") %></h2>
-    <h2>Result is: ${result} </h2>
+    <h2>Result is: ${alien} </h2>
 
     <p>Current date and time:
         <%= new java.util.Date() %>
